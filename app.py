@@ -100,7 +100,7 @@ def predict_large_language_model_sample(
     return(response.text)
 
 @app.route('/', methods=['POST'])
-def hello_world():
+def paper_company():
     if request.method == 'POST':
         post_data = request.get_json()
         if post_data:
